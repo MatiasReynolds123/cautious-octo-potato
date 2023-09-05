@@ -71,7 +71,7 @@ const leerInput = async( message ) => {
             name: 'desc',
             message,
             validate( value ) {
-                if( value.length == 0 ) {
+                if( value.length === 0 ) {
                     return 'Por favor retorne un valor';
                 }
                 return true;
